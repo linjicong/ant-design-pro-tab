@@ -111,36 +111,24 @@ export default {
               authority: ['admin'],
             },
             {
-              name: '全局管理',
+              name: 'globalManage',
               icon: 'smile',
               path: '/',
               routes:  [
                 {
-                  name: 'Profile管理',
+                  name: 'profileManage',
                   icon: 'smile',
                   path: '/profileManage',
                   component: './ProfileManage',
                 },
                 {
-                  name: '用户管理',
+                  name: 'userManage',
                   icon: 'smile',
                   path: '/userManage',
                   component: './UserManage',
                 }
               ]
             },
-            /*{
-              name: 'Profile管理',
-              icon: 'smile',
-              path: '/profileManage',
-              component: './ProfileManage',
-            },
-            {
-              name: '用户管理',
-              icon: 'smile',
-              path: '/userManage',
-              component: './UserManage',
-            },*/
             {
               component: './404',
             },

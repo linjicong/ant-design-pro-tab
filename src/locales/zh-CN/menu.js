@@ -1,5 +1,8 @@
 export default {
   'menu.welcome': '欢迎',
+  'menu.globalManage': '全局管理',
+  'menu.globalManage.profileManage': 'Profile管理',
+  'menu.globalManage.userManage': '用户管理',
   'menu.more-blocks': '更多区块',
   'menu.home': '首页',
   'menu.admin': '管理页',
